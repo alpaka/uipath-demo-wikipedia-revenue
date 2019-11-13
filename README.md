@@ -4,3 +4,4 @@ This is a very simple demo for the [UiPath RPA](https://www.uipath.com/) softwar
 Requirements:
 - Chrome with UiPath extension
 - Excel
+- UiPath 19.10
