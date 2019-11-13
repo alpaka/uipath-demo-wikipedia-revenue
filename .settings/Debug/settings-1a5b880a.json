@@ -16,7 +16,7 @@
   "UiPath.UiAutomation.Activities.KeyboardEvents.SimulateType": "True",
   "UiPath.UiAutomation.Activities.MouseEvents.SendWindowMessages": "False",
   "UiPath.UiAutomation.Activities.MouseEvents.SimulateClick": "True",
-  "UiPath.UiAutomation.Activities.MouseEvents.SimulateHover": "True",
+  "UiPath.UiAutomation.Activities.MouseEvents.SimulateHover": "False",
   "UiPath.UiAutomation.Activities.Screenshot.WaitBefore": "300",
   "UiPath.UiAutomation.Activities.Browser.CommunicationMethod": "Native",
   "UiPath.UiAutomation.Activities.SendHotkey.SendWindowMessages": "False"
