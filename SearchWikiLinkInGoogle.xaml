@@ -4,7 +4,7 @@
     <x:Property Name="entryFound" Type="OutArgument(x:Boolean)" />
     <x:Property Name="ShowCallouts" Type="InArgument(x:Boolean)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>736.444444444444,3113.77777777778</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>736.444444444444,3153.77777777778</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
   <TextExpression.NamespacesForImplementation>
@@ -216,7 +216,7 @@
                           </ActivityFunc>
                         </ui:CalloutScope.CalloutForm>
                         <ui:CalloutScope.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='H3' /&gt;" TimeoutMS="5000">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='span' /&gt;" TimeoutMS="5000">
                             <ui:Target.WaitForReady>
                               <InArgument x:TypeArguments="ui:WaitForReady" />
                             </ui:Target.WaitForReady>
@@ -245,7 +245,7 @@
                             </ui:CursorPosition>
                           </ui:Hover.CursorPosition>
                           <ui:Hover.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='H3' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='span' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -257,7 +257,7 @@
                         </ui:Hover>
                         <ui:Highlight HighlightTime="{x:Null}" Color="IndianRed" sap:VirtualizedContainerService.HintSize="333.777777777778,68.4444444444444" sap2010:WorkflowViewState.IdRef="Highlight_5">
                           <ui:Highlight.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='H3' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='span' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -282,7 +282,7 @@
                       </ui:CursorPosition>
                     </ui:Click.CursorPosition>
                     <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="f47778407c18e3522d633d1d469513e5" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='H3' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="f47778407c18e3522d633d1d469513e5" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='span' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
