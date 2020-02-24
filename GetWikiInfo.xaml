@@ -162,7 +162,7 @@
                       </ui:CursorPosition>
                     </ui:Hover.CursorPosition>
                     <ui:Hover.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl idx='1' parentid='mw-content-text' tag='P' matching:class='regex' class='((?!mw-empty-elt).)*' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl idx='2' parentid='mw-content-text' tag='P' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -174,7 +174,7 @@
                   </ui:Hover>
                   <ui:Highlight HighlightTime="{x:Null}" Color="IndianRed" sap:VirtualizedContainerService.HintSize="333.777777777778,68.4444444444444" sap2010:WorkflowViewState.IdRef="Highlight_2">
                     <ui:Highlight.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl idx='1' parentid='mw-content-text' tag='P' matching:class='regex' class='((?!mw-empty-elt).)*' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl idx='2' parentid='mw-content-text' tag='P' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -189,7 +189,7 @@
             </If>
             <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text Text" sap:VirtualizedContainerService.HintSize="785.333333333333,68.4444444444444" sap2010:WorkflowViewState.IdRef="GetValue_2">
               <ui:GetValue.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl idx='1' parentid='mw-content-text' tag='P' matching:class='regex' class='((?!mw-empty-elt).)*' /&gt;" WaitForReady="INTERACTIVE">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl idx='2' parentid='mw-content-text' tag='P' /&gt;" WaitForReady="INTERACTIVE">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
