@@ -216,7 +216,7 @@
                           </ActivityFunc>
                         </ui:CalloutScope.CalloutForm>
                         <ui:CalloutScope.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='span' /&gt;" TimeoutMS="5000">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl href='http?://en.wikipedia.org/wiki/*' parentid='rso' tag='a' /&gt;" TimeoutMS="5000">
                             <ui:Target.WaitForReady>
                               <InArgument x:TypeArguments="ui:WaitForReady" />
                             </ui:Target.WaitForReady>
@@ -245,7 +245,7 @@
                             </ui:CursorPosition>
                           </ui:Hover.CursorPosition>
                           <ui:Hover.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='span' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl href='http?://en.wikipedia.org/wiki/*' parentid='rso' tag='a' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -257,7 +257,7 @@
                         </ui:Hover>
                         <ui:Highlight HighlightTime="{x:Null}" Color="IndianRed" sap:VirtualizedContainerService.HintSize="333.777777777778,68.4444444444444" sap2010:WorkflowViewState.IdRef="Highlight_5">
                           <ui:Highlight.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='span' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl href='http?://en.wikipedia.org/wiki/*' parentid='rso' tag='a' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -282,7 +282,7 @@
                       </ui:CursorPosition>
                     </ui:Click.CursorPosition>
                     <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="f47778407c18e3522d633d1d469513e5" Selector="&lt;webctrl aaname='*- Wikipedia' parentid='rso' tag='span' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="f47778407c18e3522d633d1d469513e5" Selector="&lt;webctrl href='http?://en.wikipedia.org/wiki/*' parentid='rso' tag='a' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -314,7 +314,7 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="ui:SelectorNotFoundException" Name="exception" />
                     </ActivityAction.Argument>
-                    <Sequence sap:VirtualizedContainerService.HintSize="375.555555555556,655.555555555556" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <Sequence sap:VirtualizedContainerService.HintSize="375.555555555556,656.444444444444" sap2010:WorkflowViewState.IdRef="Sequence_10">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="errorText" />
                       </Sequence.Variables>

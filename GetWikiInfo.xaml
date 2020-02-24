@@ -6,7 +6,7 @@
     <x:Property Name="revenue" Type="OutArgument(x:String)" />
     <x:Property Name="ShowCallouts" Type="InArgument(x:Boolean)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>922.666666666667,3972</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>922.666666666667,4012</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
   <TextExpression.NamespacesForImplementation>
@@ -189,7 +189,7 @@
             </If>
             <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text Text" sap:VirtualizedContainerService.HintSize="785.333333333333,68.4444444444444" sap2010:WorkflowViewState.IdRef="GetValue_2">
               <ui:GetValue.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl idx='2' parentid='mw-content-text' tag='P' /&gt;" WaitForReady="INTERACTIVE">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl idx='1' parentid='mw-content-text' tag='P' matching:class='regex' class='((?!mw-empty-elt).)*' /&gt;" WaitForReady="INTERACTIVE">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
