@@ -1,5 +1,3 @@
-.local/
-.screenshots/
+.local/*
 ~$*
 *.log
-zz_*
